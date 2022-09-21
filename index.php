@@ -32,7 +32,7 @@ $newLength = strlen($newText);
 <p> <strong> il paragrafo è composto da <?php echo $length; ?> caratteri. </strong></p>
 <br>
 <h1>Il Lonfo Modificato</h1>
-<p> <?php echo $newText ?> </p>
+<p> <?php echo $newText ?>; </p>
 <p> <strong> il paragrafo è composto da <?php echo $newLength; ?> caratteri. </strong></p>
-<p> la parola era presente  <?= $count ?> volte </p>
+<p> la parola era presente  <?= $count; ?> volte </p>
 
